@@ -1,0 +1,17 @@
+name = "PCL_jll"
+uuid = "19da7e43-5f78-5205-a494-8c2c52b4cca1"
+version = "1.11.1+0"
+
+[deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+FLANN_jll = "48b6455b-4cf5-590d-a543-2d733c79e793"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+Eigen_jll = "bc6bbf8a-a594-5541-9c57-10b0d0312c70"
+boost_jll = "28df3c45-c428-5900-9ff8-a3135698ca75"
+
+[compat]
+JLLWrappers = "1.2.0"
+julia = "1.0"

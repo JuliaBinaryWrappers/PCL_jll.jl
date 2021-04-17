@@ -1,0 +1,236 @@
+[[PCL]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4d54a1a8fec6950358f192af4baf630441b596a1"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "414e7861f29d2aede2affe1ae0623c5beed155185928d9f997170b33844ecdd7"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.aarch64-linux-gnu-cxx03.tar.gz"
+[[PCL]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "48f7937b1e9aef938bfa0d8047a7015dc3080e10"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "702f20cf3d62af6f95d766256bc201b2d91c9af7763520314c08aedc6ed18837"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[PCL]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "82d75c86a989a7652ec911830549472edd634248"
+libc = "musl"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "8981032ce308ff973ff58541fd7296d5deb8d9437bdcec2738f7698d70ccc49c"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.aarch64-linux-musl-cxx03.tar.gz"
+[[PCL]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e666d89727865e822a65f8de140fe44dfcbe7e1f"
+libc = "musl"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "652854c45e2122ad266362f13d03c4719e58b8e2b47c4ac06b78433572e9b106"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.aarch64-linux-musl-cxx11.tar.gz"
+[[PCL]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f494c3474526088d0a8dcbc6f3c856c72ae267ae"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "08deafcec66a8046a7499392c39c260245fca2f24e246080f6862550f2994182"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[PCL]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0f6d9e6b7d359bca9768b166bc5ac9268f4afcab"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "c9647bd591b3419951530669fa6981ad3fe5275e03812e9841258f01df984940"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[PCL]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a01bdef085ba04581d75bda10a3ab05fc0a58c17"
+libc = "musl"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "99dfa7d7a8a8533744b0ab77cf741088ff5cfae68549d65c8898c7dda5eecbbb"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[PCL]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8493c20c22d0b623ab82c273ef3620e04b17d7db"
+libc = "musl"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "60d07b6605c9e4e09e17a54fd5305cb7a2ad8e934437da258913f9b68fbbbb32"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[PCL]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ce5f857bc3fa2d5e75aa179657a8b5306eaae4e8"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "2784af04c1bcd6d93af64da04bbe940e095d38ce2c3ece893ae58a466dc6f1d1"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.i686-linux-gnu-cxx03.tar.gz"
+[[PCL]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "72d6a7608ec4fe21f34372c51d1bdcbf6acda09e"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "6fd3266ad4bf0ccb803416f0629787b4c2e3d0f55c5d9218810dc2a05d2331e4"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.i686-linux-gnu-cxx11.tar.gz"
+[[PCL]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "54376ef421cb7f7c392febb4b96f071c8c4ff4ff"
+libc = "musl"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "89112f9135adb8a5faee8319dd3734b439005f84b134a401b16eb29b4e767064"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.i686-linux-musl-cxx03.tar.gz"
+[[PCL]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f2d9bb55008d269c71205563d54bf2fb0778754a"
+libc = "musl"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "baacfbcf246d1c78e636e6c82b7ee2e2dab8cf5cf7263735654926a8b317c251"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.i686-linux-musl-cxx11.tar.gz"
+[[PCL]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f59e7baa0ff680a92032ec384d34ad984a5346aa"
+os = "windows"
+
+    [[PCL.download]]
+    sha256 = "b5dd4ef94d8c7a9426441dee97feb05e7b8ac979a8fe0e0b0f3c514fca96756e"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.i686-w64-mingw32-cxx03.tar.gz"
+[[PCL]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "76bf6eabe8df9e4eefea0366893f9f0b987bdea7"
+os = "windows"
+
+    [[PCL.download]]
+    sha256 = "bad60f2dcb5cb1b0bc95eba9df66f9c45b5e226afd413ab1e7cef1cc6ff5017d"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.i686-w64-mingw32-cxx11.tar.gz"
+[[PCL]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4c71409570ea85e7116e593219ab3158aca8026e"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "a7327b5c64d9ec9fcd181b26d35dde8b0798f7d0bc15d2c1c784b9b0dfd1e61e"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[PCL]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "341372522d5735b174c507a1c8f368c6d3e949d7"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "5a6dcd87dec80c505bbb482e4c2023768a7436084d6fff37ba42511858a58d64"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[PCL]]
+arch = "x86_64"
+git-tree-sha1 = "6552733d893f0c65fabb5d463d15b567346a899a"
+os = "macos"
+
+    [[PCL.download]]
+    sha256 = "00e4914c07ca88702c1b5a60cbd0833a7562d6fcd3d2adf4986e00edab1d637d"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.x86_64-apple-darwin.tar.gz"
+[[PCL]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "932f8bbbfcc449fc6741e5aefd6805578ae30d9d"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "8603a005528019eae91d16a86c9ce534f1b9d02801b5b535f2e593b6c0acbf9b"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.x86_64-linux-gnu-cxx03.tar.gz"
+[[PCL]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0e043c8b6579d6a26c822e64aaf6e6a623ff9e95"
+libc = "glibc"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "03f9669222b73a57332a351ec5550d5fdf506a650fb00d58ace64719db66415c"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[PCL]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a252ef0b9046df549bd6ec78be249c4545142567"
+libc = "musl"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "41c60e58b6800753bc9810b06f82131e9ea334cca55f14cd85a44c9604d62859"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.x86_64-linux-musl-cxx03.tar.gz"
+[[PCL]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "948081455867cc118c885ed212ada6788b557501"
+libc = "musl"
+os = "linux"
+
+    [[PCL.download]]
+    sha256 = "039859404ac818c4c91351b4e5163af127a7ed4c0e16b0010a9a814231c95709"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.x86_64-linux-musl-cxx11.tar.gz"
+[[PCL]]
+arch = "x86_64"
+git-tree-sha1 = "e153da7bd23d9bd270a9bd8dc6c6617b36da3b32"
+os = "freebsd"
+
+    [[PCL.download]]
+    sha256 = "b5fc64ac3538edb715bcacacdd2da5d2703c862785e4a52172c62343f03551c7"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.x86_64-unknown-freebsd.tar.gz"
+[[PCL]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4fab4cb9033d12e8aede3858fce256b8d890fec2"
+os = "windows"
+
+    [[PCL.download]]
+    sha256 = "3ceab2df19ebc7c4af4db12c9bce69ea904c7f8f90c3038871f1fddf759988b9"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.x86_64-w64-mingw32-cxx03.tar.gz"
+[[PCL]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "56d8070b4838c15fc099c43d48de1912a3868522"
+os = "windows"
+
+    [[PCL.download]]
+    sha256 = "27f1b0a70c8021300f629c6ad3d010f0cdb7603ec23b4630e259f127efc946da"
+    url = "https://github.com/JuliaBinaryWrappers/PCL_jll.jl/releases/download/PCL-v1.11.1+0/PCL.v1.11.1.x86_64-w64-mingw32-cxx11.tar.gz"
