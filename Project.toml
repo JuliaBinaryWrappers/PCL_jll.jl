@@ -1,6 +1,6 @@
 name = "PCL_jll"
 uuid = "19da7e43-5f78-5205-a494-8c2c52b4cca1"
-version = "1.11.1+0"
+version = "1.12.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -15,3 +15,4 @@ boost_jll = "28df3c45-c428-5900-9ff8-a3135698ca75"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.0"
+boost_jll = "=1.71.0"

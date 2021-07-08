@@ -6,23 +6,23 @@ using FLANN_jll
 using boost_jll
 using Eigen_jll
 JLLWrappers.@generate_wrapper_header("PCL")
-JLLWrappers.@declare_library_product(libpcl_common, "@rpath/libpcl_common.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_features, "@rpath/libpcl_features.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_filters, "@rpath/libpcl_filters.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_io, "@rpath/libpcl_io.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_io_ply, "@rpath/libpcl_io_ply.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_kdtree, "@rpath/libpcl_kdtree.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_keypoints, "@rpath/libpcl_keypoints.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_ml, "@rpath/libpcl_ml.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_octree, "@rpath/libpcl_octree.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_recognition, "@rpath/libpcl_recognition.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_registration, "@rpath/libpcl_registration.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_sample_consensus, "@rpath/libpcl_sample_consensus.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_search, "@rpath/libpcl_search.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_segmentation, "@rpath/libpcl_segmentation.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_stereo, "@rpath/libpcl_stereo.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_surface, "@rpath/libpcl_surface.1.11.dylib")
-JLLWrappers.@declare_library_product(libpcl_tracking, "@rpath/libpcl_tracking.1.11.dylib")
+JLLWrappers.@declare_library_product(libpcl_common, "@rpath/libpcl_common.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_features, "@rpath/libpcl_features.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_filters, "@rpath/libpcl_filters.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_io, "@rpath/libpcl_io.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_io_ply, "@rpath/libpcl_io_ply.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_kdtree, "@rpath/libpcl_kdtree.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_keypoints, "@rpath/libpcl_keypoints.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_ml, "@rpath/libpcl_ml.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_octree, "@rpath/libpcl_octree.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_recognition, "@rpath/libpcl_recognition.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_registration, "@rpath/libpcl_registration.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_sample_consensus, "@rpath/libpcl_sample_consensus.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_search, "@rpath/libpcl_search.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_segmentation, "@rpath/libpcl_segmentation.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_stereo, "@rpath/libpcl_stereo.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_surface, "@rpath/libpcl_surface.1.12.dylib")
+JLLWrappers.@declare_library_product(libpcl_tracking, "@rpath/libpcl_tracking.1.12.dylib")
 JLLWrappers.@declare_executable_product(pcl_add_gaussian_noise)
 JLLWrappers.@declare_executable_product(pcl_boundary_estimation)
 JLLWrappers.@declare_executable_product(pcl_cluster_extraction)
@@ -84,103 +84,103 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, FLANN_jll, boost_jll, Eigen_jll)
     JLLWrappers.@init_library_product(
         libpcl_common,
-        "lib/libpcl_common.1.11.1.dylib",
+        "lib/libpcl_common.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_features,
-        "lib/libpcl_features.1.11.1.dylib",
+        "lib/libpcl_features.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_filters,
-        "lib/libpcl_filters.1.11.1.dylib",
+        "lib/libpcl_filters.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_io,
-        "lib/libpcl_io.1.11.1.dylib",
+        "lib/libpcl_io.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_io_ply,
-        "lib/libpcl_io_ply.1.11.1.dylib",
+        "lib/libpcl_io_ply.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_kdtree,
-        "lib/libpcl_kdtree.1.11.1.dylib",
+        "lib/libpcl_kdtree.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_keypoints,
-        "lib/libpcl_keypoints.1.11.1.dylib",
+        "lib/libpcl_keypoints.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_ml,
-        "lib/libpcl_ml.1.11.1.dylib",
+        "lib/libpcl_ml.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_octree,
-        "lib/libpcl_octree.1.11.1.dylib",
+        "lib/libpcl_octree.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_recognition,
-        "lib/libpcl_recognition.1.11.1.dylib",
+        "lib/libpcl_recognition.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_registration,
-        "lib/libpcl_registration.1.11.1.dylib",
+        "lib/libpcl_registration.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_sample_consensus,
-        "lib/libpcl_sample_consensus.1.11.1.dylib",
+        "lib/libpcl_sample_consensus.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_search,
-        "lib/libpcl_search.1.11.1.dylib",
+        "lib/libpcl_search.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_segmentation,
-        "lib/libpcl_segmentation.1.11.1.dylib",
+        "lib/libpcl_segmentation.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_stereo,
-        "lib/libpcl_stereo.1.11.1.dylib",
+        "lib/libpcl_stereo.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_surface,
-        "lib/libpcl_surface.1.11.1.dylib",
+        "lib/libpcl_surface.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpcl_tracking,
-        "lib/libpcl_tracking.1.11.1.dylib",
+        "lib/libpcl_tracking.1.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
